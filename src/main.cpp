@@ -54,8 +54,6 @@ int main(int argc, char *argv[])
         printf("Failed to listen on server socket.\n");
     }
 
-    // socklen_t len = sizeof(listenaddr);
-    // rc = getsockname(serverSocket, (struct sockaddr *)&listenaddr, &len);
     socklen_t len = sizeof(listenaddr);
     rc = getsockname(serverSocket, (struct sockaddr *)&listenaddr, &len);
     int myPort = ntohs(listenaddr.sin_port);
