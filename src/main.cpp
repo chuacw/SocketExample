@@ -2,7 +2,7 @@
 Example developed and tested on Ubuntu Linux 18.04.2.
 
 This example shows how to trigger select to return immediately by
-sennding an OOB message to the receiving party.
+sending an OOB message to the receiving party.
 
 Works on Linux and Android
 The equivalent API code also works on Windows except that Windows Firewall is
